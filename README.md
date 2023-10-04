@@ -27,7 +27,14 @@ Once you've logged in to your Raspberry Pi, you can begin the installation of Pi
 This command will download and run the Pi-Hole installation script. Follow the on-screen instructions to configure Pi-Hole. When asked to select the upstream DNS provider, you can choose your preferred option (e.g., Google, OpenDNS, or Custom).
 
 ### Step 3: Set Up Your Router
-For Pi-Hole to work effectively, you need to configure your router to use the Raspberry Pi's IP address (192.168.1.203) as the DNS server for your network. Access your router's settings through a web browser and find the DNS settings. Set the primary DNS server to 192.168.1.203.
+For Pi-Hole to work effectively, you need to configure your router to use the Raspberry Pi's IP address (192.168.1.203) as the DNS server for your network. Access your router's settings through a web browser and find the DNS settings. Set the primary DNS server to 192.168.1.203 (as shown below in my Netgear Router's web interface).
+
+![image](https://github.com/Vuitton-Toine/NetSec-Homelab-PiHole/assets/81653524/66b76097-c0ef-4e3a-8fbe-44620dfc29ea)
+
+Alternatively, you can manually configure a PC's DNS within the systems networking configuration as shown below on a Windows systems. 
+
+![image](https://github.com/Vuitton-Toine/NetSec-Homelab-PiHole/assets/81653524/cc37128b-fc3a-46ce-9cbc-4bb8626fd550)
+
 
 ### Step 4: Configure Pi-Hole
 To access the Pi-Hole web interface and configure it further, open a web browser and enter your Raspberry Pi's IP address followed by "/admin" (e.g., http://192.168.1.203/admin/). You'll be presented with the Pi-Hole dashboard, where you can manage settings, view statistics, and add custom blocklists.
