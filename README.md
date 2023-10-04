@@ -31,10 +31,9 @@ For Pi-Hole to work effectively, you need to configure your router to use the Ra
 
 ![image](https://github.com/Vuitton-Toine/NetSec-Homelab-PiHole/assets/81653524/66b76097-c0ef-4e3a-8fbe-44620dfc29ea)
 
-Alternatively, you can manually configure a PC's DNS within the systems networking configuration as shown below on a Windows systems. 
+Alternatively, you can manually configure a PC's DNS within the system's networking configuration, as shown below on a Windows systems. 
 
 ![image](https://github.com/Vuitton-Toine/NetSec-Homelab-PiHole/assets/81653524/cc37128b-fc3a-46ce-9cbc-4bb8626fd550)
-
 
 ### Step 4: Configure Pi-Hole
 To access the Pi-Hole web interface and configure it further, open a web browser and enter your Raspberry Pi's IP address followed by "/admin" (e.g., http://192.168.1.203/admin/). You'll be presented with the Pi-Hole dashboard, where you can manage settings, view statistics, and add custom blocklists.
