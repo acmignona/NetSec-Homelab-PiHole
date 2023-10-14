@@ -1,7 +1,7 @@
 # NetSec-Homelab-PiHole
 Quick writeup regarding my experience installing and configuring PiHole, a DNS sinkhole, within my homelab. There are other great resources that you can also use else where to emulate this project. 
 
-![image](https://github.com/Vuitton-Toine/NetSec-Homelab-PiHole/assets/81653524/f9b7a4f6-15a3-4c68-94eb-b7cc40fade53)
+![PI](https://github.com/acmignona/NetSec-Homelab-PiHole/assets/81653524/2fde8aa5-94b8-48c4-9f46-9f5e9fba2787)
 
 ## Requirements: 
 
