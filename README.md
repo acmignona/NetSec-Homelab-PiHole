@@ -37,6 +37,12 @@ For Pi-Hole to work effectively, you need to configure your router to use the Ra
 
 #### Alternative - Linux Host Manual DNS Configuration
 
+Run `sudo nmtui`. Select **edit a Connection**. Select your connection > edit.    
+
+Set IPv4 configuration to Manual. Add DNS. Enter in PiHole IPv4 address.
+
+Disable then reactivae the connection. Quit. 
+
 ### Step 4: Configure Pi-Hole
 To access the Pi-Hole web interface and configure it further, open a web browser and enter your Raspberry Pi's IP address followed by "/admin" (e.g., http://192.168.1.203/admin/). You'll be presented with the Pi-Hole dashboard, where you can manage settings, view statistics, and add custom blocklists.
 
